@@ -12,3 +12,9 @@ function triangle(){
       output.innerHTML=("This is an equilateral triangle.");
     }
 }
+if(length||width && width||height){
+    output.innerHTML=("This is an Isosceles triangle.")
+}
+
+
+}
