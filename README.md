@@ -12,7 +12,8 @@ To set up you will need a laptop, smartphone or tablet, a text editor to view yo
 
 
 ##BDD
-|Behaviour                                |  Input                          | Output                |
+
+|Behaviour                                |Input                            |Output                |
 |-----------------------------------------|---------------------------------|-----------------------|
 |Triangle with equal sides                |l===w && w===h                   |Equilateral triangle  |
 |Triangle with two equal sides            |L===w OR w===h OR l===h          |Isosceles triangle    |
