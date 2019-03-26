@@ -3,24 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" >
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js">
+    </script>
     <title>Triangle Tracker</title>
   </head>
-  <body>
+  <body background="images/bg.jpg">
     <h1><strong>TRIANGLE TRACKER</strong></h1>
     <div class="input">
-      Length  : <input type="number" id="length">;
+      Length  : <input type="number" id="length">
       <br>
       <br>
-      Width   : <input type="number" id="width">;
+      Width   : <input type="number" id="width">
       <br>
       <br>
-      Height  : <input type="number" id="height">;
+      Height  : <input type="number" id="height">
       <br>
       <br>
-      <input type="button" class="button" value="Track" onclick=triangle()>
+      <input class="button" type="button" value="Track" onclick="triangle()">
       <br>
-      <input type="button" class="button" value="Refresh" onclick=reset()>
+      <input class="button" type="button" value="Refresh" onclick="reset()">
+      <br>
+      <p id="output"></p>
+
     </div>
 
     <div class="description">
