@@ -31,4 +31,4 @@ If you run into any issues or have questions, ideas or concerns please contact m
 
 ### License
 This project is licenced under the terms of the MIT license.
-Copyright (c) year, Faith Ngotho.
+Copyright (c) 2019, Faith Ngotho.
