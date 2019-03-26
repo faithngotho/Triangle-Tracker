@@ -21,3 +21,8 @@ function triangle(){
     output.innerHTML=("This is a scalene triangle.");
     }
 }
+
+function reset()
+{
+  location.reload();
+}
