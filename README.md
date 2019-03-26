@@ -13,7 +13,7 @@ To set up you will need a laptop, smartphone or tablet, a text editor to view yo
 
 ##BDD
 |Behaviour                                |  Input                 | Output                |
-|----------------------------------------:|:-----------------------|-----------------------|
+|----------------------------------------:|:----------------------:|:----------------------|
 |Triangle with equal sides                | 5,5,5                  | Equilateral triangle  |
 |Triangle with two equal sides            | 4,4,5                  | Isosceles triangle    |
 |Triangle with no equal sides             | 3,4,5                  | Scalene triangle      |
