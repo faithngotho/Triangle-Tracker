@@ -12,7 +12,7 @@ To set up you will need a laptop, smartphone or tablet, a text editor to view yo
 https://faithngotho.github.io/Triangle-Tracker/
 
 
-## BDD
+## Behavior Driven Development
 
 |Behaviour                                |Input                            |Output                |
 |-----------------------------------------|---------------------------------|-----------------------|
