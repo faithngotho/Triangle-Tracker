@@ -12,12 +12,12 @@ To set up you will need a laptop, smartphone or tablet, a text editor to view yo
 
 
 ##BDD
-|Behaviour                                |  Input                 | Output                |
-|----------------------------------------:|:----------------------:|:----------------------|
-|Triangle with equal sides                | 5,5,5                  | Equilateral triangle  |
-|Triangle with two equal sides            | 4,4,5                  | Isosceles triangle    |
-|Triangle with no equal sides             | 3,4,5                  | Scalene triangle      |
-|Sum of two sides is less than the other  | 3,4,50                 | Not a triangle        |
+|Behaviour                                |  Input                          | Output                |
+|----------------------------------------:|:-------------------------------:|:----------------------|
+|Triangle with equal sides                | l===w && w===h                  | Equilateral triangle  |
+|Triangle with two equal sides            |L===w OR w===h or l===h          | Isosceles triangle    |
+|Triangle with no equal sides             |l!==w && w!==h                   | Scalene triangle      |
+|Sum of two sides is less than the other  | (l+w)<=h or (l+h)<=w or (w+h)<l | Not a triangle        |
 
 ## Technologies Used
 1.HTML
