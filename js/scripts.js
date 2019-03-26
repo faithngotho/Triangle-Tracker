@@ -8,4 +8,7 @@ function triangle(){
     if(isNan(length,width,height)===true || (length<=0 || width<=0 || height<=0)){
       output.innerHTML=("Enter a valid number.");
     }
+    else if (length===width && width===height){
+      output.innerHTML=("This is an equilateral triangle.");
+    }
 }
