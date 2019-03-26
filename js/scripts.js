@@ -13,8 +13,11 @@ function triangle(){
     }
    else if(length===width || width===height || length===height){
    output.innerHTML=("This is an Isosceles triangle.");
-  }
-  else if((length+width)<=height || (length+height)<=width || (width+height)<length)){
-      output.innerHTML=("The values cannot form a triangle.");
-  }
+    }
+    else if((length+width)<=height || (length+height)<=width || (width+height)<length)){
+    output.innerHTML=("The values cannot form a triangle.");
+    }
+    else if(length!==width && width!==height){
+    output.innerHTML=("This is a scalene triangle.");
+    }
 }
